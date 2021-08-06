@@ -1,0 +1,14 @@
+[package]
+name = "spec-icu"
+version = "0.1.0"
+authors = ["Greg Tatum <tatum.creative@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+icu = "0.3"
+icu_provider_fs = { version = "0.3", features = ["bincode"] }
+
+# icu = { path = "/Users/greg/dev/icu4x/components/icu" }
+# icu_provider_fs = { path = "/Users/greg/dev/icu4x/provider/fs" }
